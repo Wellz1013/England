@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:800px){
+    
+    body{
+        background: black;
+        color: azure;
+    }
+
+    a{
+        text-decoration: none;
+        color: azure;
+    }
+
+    .upper_cont{
+        display: flex;
+    }
+
+    .upper_cont .box-1{
+        flex: 1;
+    }
+
+    .upper_cont .box-1 p{
+        font-size: 75px;
+        margin-left: 12px;
+    }
+
+    .upper_cont .box-2{
+        flex: 3;
+        margin: 0;
+        text-align: center; 
+        padding-top: 3%;
+    }
+
+    .upper_cont .box-2 p{
+        margin-top: 29px;
+        font-size: 43px;
+        word-spacing: -3px;
+    }
+
+    .upper_cont .box-3{
+        justify-items: right;
+    }
+
+    .upper_cont .box-3 #header-img{
+        padding-left: 61%;
+        width: 35%;
+    }
+
+    .navigation{
+        text-align: center;
+        transition: all 1s ease;
+    }
+
+    .navigation li{
+        display: inline-block;
+        margin: 0px 2% 0px 2%;
+        padding: 4px 0px 0px 0px;
+        border-top-left-radius: 30%;
+        border-top-right-radius: 30%;
+        transition: 1s ease;
+    }
+
+    .navigation li a{
+        font-size: 25px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .upper_cont .box-3{
+        flex: 1;
+    }
+
+    .navigation ul li{
+        transition: all 2s ease;
+        -webkit-transition: all 2s ease;
+    }
+
+    .navigation ul li a{
+        transition: all 2s ease;
+        -webkit-transition: all 2s ease;
+    }
+
+    .navigation ul li:hover{
+        margin: 0px 2% 0px 2%;
+        padding: 4px 0px 0px 0px;
+        background-color: #fff;
+        /* color: black; */
+        /* border-top-width: 11px; */
+    }
+
+    .navigation ul li:hover a{
+        color: black;
+    }
+
+    #onpage{
+        color: black;
+        background: white; 
+    }
+
+    #onpage a{
+        color: black;
+    }
+
+    .insider{
+        cursor: context-menu;
+    }
+
+    .insider li span{
+        margin-right: -1%;
+        padding-right: 1%;
+        transition: all 1s ease;
+    }
+
+    .insider li span:hover{
+        background: white;
+        color: black;
+        border-bottom-left-radius: 274%;
+        border-top-left-radius: 274%;
+        padding-left: 3%;
+        /* margin-right: 39px; */
+        padding-right: 2%;
+    }
+
+    footer{
+        display: flex;
+        background: gray;
+        margin-bottom: -1%;
+        width: 100%;
+        color: black;
+        
+    }
+
+    footer a{
+        color: black;
+    }
+
+    
+    footer .box-1{
+        flex: 1;
+        font-size: 2vw;
+        cursor: context-menu;
+    }
+    
+    footer .box-2{
+        flex: 1;
+        font-size: 2vw;
+        text-align: center;
+        padding-left: 6%;
+    }
+
+    footer .box-2 a{
+        border-bottom: 1px black solid;
+        transition: border 1s ease;
+    }
+
+    footer .box-2 a:hover{
+        border-bottom: 3px black solid;
+    }
+    
+    footer .box-3{
+        flex: 1;
+        text-align: right;
+        padding-right: 6%;
+        font-size: 2vw;
+        cursor: context-menu;
+    }
+    
+    
+
+}
+
+@media(min-width:300px){
+    body{
+        background: black;
+        color: azure;
+    }
+
+    a{
+        text-decoration: none;
+        color: azure;
+    }
+
+    .upper_cont .box-1 p{
+        text-align: center;
+        font-size: 75px;
+        margin-left: 12px;
+    }
+
+    .upper_cont .box-2{
+        margin: 0;
+        text-align: center; 
+    }
+
+    .upper_cont .box-2 p{
+        margin-top: -8px;
+        font-size: 43px;
+        word-spacing: -3px;
+    }
+
+    .navigation{
+        text-align: center;
+    }
+
+    .navigation li{
+        display: inline-block;
+        margin: 0px 2% 0px 2%;
+        padding: 4px 0px 0px 0px;
+        border-top-left-radius: 30%;
+        border-top-right-radius: 30%;
+    }
+
+    .navigation li a{
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .upper_cont .box-3{
+        flex: 1;
+    }
+
+    .navigation ul li:hover{
+        margin: 0px 2% 0px 2%;
+        padding: 4px 0px 0px 0px;
+        background: white;
+        /* color: black; */
+        /* border-top-width: 11px; */
+    }
+
+    .navigation ul li:hover a{
+        color: black;
+    }
+
+    #onpage{
+        color: black;
+        background: white; 
+    }
+
+    #onpage a{
+        color: black;
+    }
+}
+
+@media(max-width:799px){
+    #header-img{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}

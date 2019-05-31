@@ -1,0 +1,106 @@
+#main_pic{
+    content: url("../../images/london_food_2.jpg");
+    color: gray;
+}
+
+.dash{
+    display: block;
+    height: auto;
+    width: 90%;
+    border: black solid 1px;
+    border-radius: 100%;
+    margin-left: 5%;
+    background-color: black;
+    margin-bottom: 5%;
+}
+
+#y_section img{
+    border-radius: 50%;
+    width: 35%;
+    margin-top: 1%;
+    margin-left: 32.5%;
+    margin-bottom: 5%;
+}
+
+.center{
+    text-align: center;
+}
+
+#y_section p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#blk_1{
+    transition: all .5s ease-in;
+}
+
+#blk_2{
+    transition: all .5s ease-in;
+}
+
+#blk_3{
+    transition: all .5s ease-in;
+}
+
+#blk_4{
+    transition: all .5s ease-in;
+}
+
+#blk_5{
+    transition: all .5s ease-in;
+}
+
+#blk_1:hover{
+    background: red;
+}
+
+#blk_2:hover{
+    background: red;
+}
+
+#blk_3:hover{
+    background: red;
+}
+
+#blk_4:hover{
+    background: red;
+}
+
+#blk_5:hover{
+    background: red;
+}
+
+.shape{
+    background: rgb(255, 145, 0);
+    width: 25%;
+    border-radius: 10%;
+    transition: all .5s ease-in;
+}
+
+.shape:hover{
+    background: red;
+}
+
+.sizeIt a{
+    font-size: 1.5vw;
+}
+
+#cont_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#cont_2{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    margin-top: 13.5%;
+}

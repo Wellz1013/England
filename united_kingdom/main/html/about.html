@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>England</title>
+        <link rel="stylesheet" type="text/css" href="../css/nav_l.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/about.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body onload="clock()">
+        <nav id="doIt">
+            <div class="upper_cont">
+                <div class="box-1">
+                    <p id="top" data-aos="fade-right"><a href="index.html">England</a></p>
+                </div>
+                <div class="box-2">
+                    <p data-aos="fade-down"><a href="about.html">"The Place 2 Be!"</a></p>
+                </div>
+                <div class="box-3">
+                    <div>
+                        <img id="header-img" src="https://cdn.dribbble.com/users/127779/screenshots/1765570/kris-cook-motion-design-london-eye-low-poly-rotate.gif">
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li data-aos="fade-right"><a href="index.html">Home</a></li>
+                    <li data-aos="fade-right"><a href="todo.html">What to do</a></li>
+                    <li data-aos="fade-left"><a href="eat.html">Eat</a></li>
+                    <li data-aos="fade-left" id="onpage"><a href="about.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <form data-aos-duration="2000" data-aos="fade">
+            <div id="sect">
+                <div class="block_1">
+                    
+                </div>
+                <div class="block_2">
+                    <input type="text" name="firstname" placeholder="First Name" class="write" id="nothing_1">
+                    <input type="text" name="lastname" placeholder="Last Name" class="write" id="nothing_2">
+                    <input type="email" name="E-mail" placeholder="E-mail" class="write" id="nothing_3">
+                    <div id="status">
+                        <div>
+                            <input type="radio" name="Relationship" value="Single"/><span>Single</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="Relationship" value="Taken"/><span>Taken</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="Relationship" value="N/A"/><span>N/A</span>
+                        </div>
+                    </div>
+                    <div id="submit_pos">
+                        <input id="submit" name="submit" placeholder="SUBMIT">
+                    </div>
+                </div>
+                <div class="block_3">
+                        
+                </div>
+            </div>
+        </form>
+        <footer>
+            <div class="box-1" id="timeIt"></div>
+            <div class="box-2"></div>
+            <div class="box-3" id="timeItE"></div>
+        </footer>
+        <script src="about.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,168 @@
+#main_pic{
+    content: url("../../images/Ferris_wheel.jpg");
+}
+
+#sect{
+    display: none;
+    margin-top:50%;
+}
+
+.overlap{
+    display: inline;
+}
+
+.overlap .shape{
+    display: inline-block;
+    background: transparent;
+    width: 25%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#one-box{
+    margin-left: 4%;
+    margin-right: 8.18%;
+    max-height: 100%;
+    transition-property: height;
+    transition-duration: 10s;
+    transition-timing-function: ease;
+    transition: 3s ease-in-out;
+}
+
+#one-box img{
+    border-radius: 50%;
+    width: 57%;
+    margin-top: 1%;
+    margin-left: 23.5%;
+    margin-bottom: 5%;
+    transition: all .75s ease;
+}
+
+#one-box:hover img{
+    border-radius: 25%;
+
+}
+
+.dash{
+    display: block;
+    height: 3px;
+    width: 90%;
+    border: black solid 1px;
+    border-radius: 100%;
+    margin-left: 5%;
+    background-color: black;
+    margin-bottom: 5%;
+}
+
+.overlap p{
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#two-box{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#two-box img{
+    border-radius: 50%;
+    width: 57%;
+    margin-top: 1%;
+    margin-left: 22.5%;
+    margin-bottom: 5%;
+    transition: all .75s ease;
+}
+
+#two-box:hover img{
+    border-radius: 25%;
+}
+
+#three-box{
+    margin-left: 8%;
+    margin-right: 0px
+}
+
+#three-box img{
+    border-radius: 50%;
+    width: 57%;
+    margin-top: 1%;
+    margin-left: 22.5%;
+    margin-bottom: 5%;
+    transition: all .75s ease;
+}
+
+#three-box:hover img{
+    border-radius: 25%;
+}
+
+#sect_2{
+    display: none;
+    margin: 2% 11% 6% 11%;
+}
+
+#textIt{
+    text-align: center;
+    font-size: 2vw;
+    -webkit-transition: color 3s ease-in;
+    transition: color 3s ease-in-out;
+}
+
+.hide{
+    display: none;
+}
+
+#pic_1{
+    height: auto;
+    width: 50%;
+    margin: 0px 25% 0px 25%;
+    border-radius: 25%;
+}
+
+#pic_2{
+    width: 50%;
+    margin: 0px 25% 0px 25%;
+    border-radius: 25%;
+}
+
+#p_2 p{
+    font-size: 2vw;
+}
+
+#pic_3{
+    height: auto;
+    width: 50%;
+    margin: 0px 25% 0px 25%;
+    border-radius: 25%;
+}
+
+#p_3 p{
+    font-size: 1.9vw;
+}
+
+#sect_3{
+    margin-top: 50%;
+}
+
+#sect_3 h3{
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 1%;
+}
+
+#sect_3 p{
+    margin-bottom: 1px;
+}
+
+#sect_3 span{
+    display: block;
+    background-color: azure;
+    margin: 0 auto;
+    width: 90%;
+    height: 2px;
+    margin-top: 2%;
+}
+

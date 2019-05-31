@@ -1,0 +1,88 @@
+#main_pic{
+    content: url("../../images/I-tower_4.jpg");
+    transform: all 1s ease;
+}
+
+.sect_1 .contian-sect{
+    margin-top: 53.1%;   
+}
+
+.sect_1 .contian-sect .box-1{
+    background-image: url("http://www.northern-horizons.co.uk/_images/pictures/W001_288613904.jpg");
+    height: auto;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sect_1 .contian-sect .box-1 p{
+    text-align: center;
+    font-size: 10vw;
+    transition: all 1s ease;
+}
+
+.sect_1 .contian-sect .box-1 p:hover{
+    font-size: 12vw;
+    padding: 10% 0px 10% 0px;
+}
+
+
+.sect_2 .contian-sect{
+    margin: 10% 0px 10% 0px;
+}
+
+.sect_2 .contian-sect .box-1{
+    background-image: url("../../images/london_food_square.jpg");
+    height: auto;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sect_2 .contian-sect .box-1 p{
+    text-align: center;
+    font-size: 10vw;
+    transition: all 1s ease;
+}
+
+.sect_2 .contian-sect .box-1 p:hover{
+    font-size: 12vw;
+    padding: 10% 0px 10% 0px;
+}
+
+.sect_3 .contian-sect .box-1{
+    background-image: url("https://i.ytimg.com/vi/juT1zsim6es/maxresdefault.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 0px 149%;
+    background-repeat: no-repeat;
+}
+
+footer{
+    display: flex;
+    background: gray;
+    margin-bottom: -1%;
+    width: 100%;
+}
+
+footer .box-1{
+    flex: 1;
+    font-size: 2vw;
+}
+
+footer .box-2{
+    flex: 1;
+    font-size: 2vw;
+    text-align: center;
+}
+
+footer .box-3{
+    flex: 1;
+    text-align: right;
+    padding-right: 6%;
+    font-size: 2vw;
+}
+
+

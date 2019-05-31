@@ -1,0 +1,104 @@
+body{
+    background-image: url("../../images/about_back_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sect{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+#sect .block_1{
+    flex: 1;
+}
+
+::placeholder{
+    color: white;
+}
+
+#sect .block_2{
+    padding: 10px 106px 10px 106px;
+    background: gray;
+    color: azure;
+    flex: 1;
+    justify-items: center;
+    border-radius: 10%;
+    background: black;
+    opacity: .9;
+}
+
+#sect .block_2 .write{
+    font-size: 17px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid blue;
+    /*box-shadow: 0 0 0 4px gray, 0 6px 4px blue;*/
+    outline: none;
+    margin: 0px 0px 15% 0px;
+    height: 30px;
+    width: 100%;
+    color: white;
+}
+
+#status{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#submit_pos{
+    margin: 0px -95% 0px 0px;
+}
+
+#submit{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-top: -7px;
+    width: 51%;
+    background: blue;
+    border-radius: 10%;
+    margin: 0 auto;
+    text-align: center;
+    height: 31px;
+    transition: all 1s ease;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+
+#submit:hover{
+    background: black;
+    color: white;
+}
+
+#submit p{
+    padding-top: 8%;
+}
+
+#sect .block_3{
+    flex: 1;
+}
+
+.something{
+    font-size: 17px;
+    border: none;
+    /*background: transparent;*/
+    background: white;
+    border-bottom: 2px solid blue;
+    /*box-shadow: 0 0 0 4px gray, 0 6px 4px blue;*/
+    outline: none;
+    margin: 0px 0px 15% 0px;
+    height: 30px;
+    width: 100%;
+    color: black;
+}
+
+footer{
+    margin-top: 23%;
+}
